@@ -13,5 +13,9 @@ public class Application {
 		for(String eachName: nameList) {
 			System.out.println(eachName);
 		}
+		
+		Book catch22 = new Book(1984,"Catch-22");
+		
+		System.out.println(catch22.getName());
 	}
 }
