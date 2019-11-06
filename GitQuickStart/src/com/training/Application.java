@@ -7,6 +7,11 @@ public class Application {
 
 	public static void main(String[] args) {
 		List<String> nameList = Arrays.asList("Mahesh","Lokesh","Venkatesh","Devesh");
+		
 		nameList.forEach(System.out::println);
+		
+		for(String eachName: nameList) {
+			System.out.println(eachName);
+		}
 	}
 }
